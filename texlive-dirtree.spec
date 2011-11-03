@@ -1,3 +1,9 @@
+# revision 19882
+# category Package
+# catalog-ctan /macros/generic/dirtree
+# catalog-date 2009-04-10 11:30:41 +0200
+# catalog-license lppl
+# catalog-version 0.2
 Name:		texlive-dirtree
 Version:	0.2
 Release:	1
@@ -46,6 +52,7 @@ The macros work equally well with Plain TeX and with LaTeX.
 #- source
 %doc %{_texmfdistdir}/source/generic/dirtree/dirtree.dtx
 %doc %{_texmfdistdir}/source/generic/dirtree/dirtree.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ The macros work equally well with Plain TeX and with LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
