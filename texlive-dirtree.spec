@@ -52,3 +52,17 @@ The macros work equally well with Plain TeX and with LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
++ Revision: 750999
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
++ Revision: 718236
+- texlive-dirtree
+- texlive-dirtree
+- texlive-dirtree
+- texlive-dirtree
+
