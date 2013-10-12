@@ -1,12 +1,12 @@
-# revision 19882
+# revision 28524
 # category Package
 # catalog-ctan /macros/generic/dirtree
-# catalog-date 2009-04-10 11:30:41 +0200
+# catalog-date 2012-12-13 10:43:21 +0100
 # catalog-license lppl
-# catalog-version 0.2
+# catalog-version 0.32
 Name:		texlive-dirtree
-Version:	0.2
-Release:	2
+Version:	0.32
+Release:	1
 Summary:	Display trees in the style of windows explorer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/dirtree
@@ -52,17 +52,3 @@ The macros work equally well with Plain TeX and with LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
-+ Revision: 750999
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 718236
-- texlive-dirtree
-- texlive-dirtree
-- texlive-dirtree
-- texlive-dirtree
-
