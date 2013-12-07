@@ -6,7 +6,7 @@
 # catalog-version 0.32
 Name:		texlive-dirtree
 Version:	0.32
-Release:	4
+Release:	5
 Summary:	Display trees in the style of windows explorer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/dirtree
