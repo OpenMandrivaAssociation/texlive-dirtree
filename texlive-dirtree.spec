@@ -1,6 +1,6 @@
 Name:		texlive-dirtree
 Version:	42428
-Release:	1
+Release:	2
 Summary:	Display trees in the style of windows explorer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/dirtree
