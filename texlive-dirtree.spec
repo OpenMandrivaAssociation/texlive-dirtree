@@ -3,7 +3,7 @@ Version:	42428
 Release:	2
 Summary:	Display trees in the style of windows explorer
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/generic/dirtree
+URL:		https://www.ctan.org/tex-archive/macros/generic/dirtree
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dirtree.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dirtree.doc.r%{version}.tar.xz
